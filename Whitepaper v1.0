@@ -1,0 +1,63 @@
+# Google Agent Ecosystem (GAE)
+**Whitepaper v1.0**  
+The Operating System for Digital Labor  
+
+**Date**: November 2025  
+**Authors**: GAE Architecture Working Group  
+**Status**: General Availability Proposal  
+
+## 1. Executive Summary  
+The next era of the internet is not about finding information — it is about distributing action.  
+
+The Google Agent Ecosystem (GAE) proposes the transition from Software-as-a-Service (SaaS) to **Service-as-Labor (SaaL)**. Instead of licensing tools, we deliver verified outcomes. Powered by Gemini 3 Pro as its native kernel and governed by the open G-Agent Protocol (GAP), GAE establishes a global, trust-first marketplace for autonomous digital labor.
+
+## 2. Design Principles  
+- **Action over information** – Value is created through execution, not conversation.  
+- **Outcome over subscription** – Compensation is tied to results, not seats or time.  
+- **Protocol over platform** – GAP is an enforceable standard, not a walled garden.
+
+## 3. Technical Architecture  
+
+### 3.1 G-Agent Protocol (GAP)  
+A minimal, auditable JSON Schema that defines every agent with three immutable pillars:  
+1. **Identity** – Cryptographic signing + Developer KYA  
+2. **Contract** – Explicit token budget and pricing model  
+3. **Boundary** – Declarative permission manifest (zero trust by default)
+
+### 3.2 Gemini 3 Pro Kernel  
+Gemini evolves from model to operating system kernel:  
+- Unified reasoning runtime for all agents  
+- Pre-execution Gatekeeper (10 ms hallucination & privilege escalation guard)  
+- gVisor-based sandbox isolation per agent invocation
+
+## 4. Economic Model – From SaaS to SaaL  
+
+| Tier | Model           | Settlement            | Example                     |
+|------|-----------------|-----------------------|-----------------------------|
+| L1   | Utility         | Pay-per-call          | Translation, OCR            |
+| L2   | Pro             | Subscription          | Legal advisor, fitness coach|
+| L3   | Outcome         | Revenue share on success | $KILLER refund agent        |
+
+Settlement occurs natively on GAE Ledger (no third-party custodians).  
+Developer profit = (Value_created × Commission_rate) − Compute_cost − Insurance_premium
+
+## 5. Governance – AgentRank  
+A transparent, Darwinian reputation system:  
+AgentRank = (Success × log(Complexity)) / (Error_rate + ε) × Safety_score  
+
+- ≥ 90 → Google Choice badge + elevated permissions (e.g. finance.write)  
+- < 60 → Automatic throttling or deprecation  
+- Global Kill Switch reserved for red-line safety violations
+
+## 6. Security & Compliance  
+- Legacy non-GAP agents are physically blocked at the API gateway  
+- High-reputation agents may earn autonomous permissions with full audit trail  
+- Mandatory algorithmic insurance pool for outcome-tier agents
+
+## 7. Roadmap  
+- **Phase 1 (GA now)** – GAP v1 standardization & registry launch  
+- **Phase 2 (Q1 2026)** – Inter-Agent Protocol (agents hiring agents)  
+- **Phase 3 (Q3 2026)** – Singularity Market: closed-loop goal-to-outcome automation
+
+Google Agent Ecosystem  
+Defining the global standard for trustworthy digital labor.
